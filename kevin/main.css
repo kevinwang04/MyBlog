@@ -1,0 +1,242 @@
+* {
+	margin: 0;
+	padding: 0;
+	 }
+
+
+#aboveall{
+	
+}
+
+
+	 body{
+     background-image: url(bg.JPG);
+     z-index: 1;
+
+	 background-color: #eeeeee;
+	}
+
+	 .tophead{
+	 	position: relative;
+	 	top: 10px;
+	 	height: 10px;
+	 	padding-top: 5px;
+	 }    
+
+ .headcontent{
+ 	font-weight: 14;
+ 	height: 350px;
+ 
+ 	position: relative;
+ 	left: 3px;
+ 	top: 20px;
+ 
+ }
+
+.blogname {
+    color: #116655;
+    font-family: "Comic Sans MS",cursive,sans-serif;
+    font-size: 50px;
+    left: 550px;
+    position: relative;
+    text-decoration: none;
+    top: 150px;
+}   /*微博名称*/
+ 
+ .url1 {
+    color: #115544;
+    font-family: "Comic Sans MS",cursive,sans-serif;
+    font-size: 25px;
+    left: 180px;
+    position: relative;
+    text-decoration: none;
+    top: 200px;
+}
+
+ #blognav {
+    font-size: 50px;
+    left: 580px;
+    position: relative;
+    text-decoration: none;
+    top: 200px;
+    width: 400px;
+}
+ a.navspan {
+    font-size: 35px;
+    text-decoration: none;
+}
+
+ a.navspan:visited{
+     color: green;
+ }
+ a.navspan:hover{
+ 	background-color:#162;
+ }
+
+ #myphoto{
+ 	position: relative;
+ 	top: 20px;
+ 	left: 80px;
+ 	width:200px;
+ 	height: 250px;
+    border-radius: 25px;
+    box-shadow: 9px 9px 9px #666;
+ }  /*照片结束*/
+
+ #myname{
+ 	width: 120px;
+ 	color: #0021020;
+ 	position: relative;
+    top: 35px;
+    left: 110px;
+ 	text-decoration: inherit;
+ 	font-weight: 28;
+ 	font-size: 22;
+ 	font-family: Verdana, Geneva, sans-serif;
+ 	
+}
+
+.info{
+	position: relative;
+	left: 220px;
+	width: 350px;
+	height: 800px;
+	
+}
+
+#mail{
+	text-decoration: none;
+	color:#bbb;
+}
+
+.operate_btn{
+	width: 60px;
+    list-style: none;
+	position: relative;
+	top: 300px;
+	left: 100px;
+
+}
+.operate{
+	width: 80px;
+}
+
+/*
+#c1{
+	position: relative;
+	top: 100px;
+	left: 100px;
+	text-decoration: none;
+	background-color: green;
+    float: left;
+	}
+#c2{
+	position: relative;
+	top: 100px;
+	left: 150px;
+	text-decoration: none;
+	background-color: green;
+    float: left;
+	}
+
+#c3{
+	position: relative;
+	top: 180px;
+	left: 100px;
+	text-decoration: none;
+	background-color: green;
+    float: left;
+	}
+
+#c4{
+	position: relative;
+	top: 180px;
+	left: 150px;
+	text-decoration: none;
+	background-color: green;
+    float: left;
+	}
+*/
+
+cite{
+	page-break-before: 40px;
+	background-color: #F5DEB3;
+	width: 80px;
+	height: 30px;
+	text-decoration: none;
+}
+
+#self_info{
+	position: relative;
+	top: -100px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14;
+		}
+
+#introduce{
+	list-style: none;
+	position: relative;
+	left: 40px;
+	margin: 20px;
+	background-color: transparent;
+}
+
+div.clareright{
+	width: 850px;
+	height: 30px;
+	border: 2;
+	border-color: #888;
+	background-color: #ccc;
+	text-align: center;
+	position: relative;
+	top: -900px;
+	left: 800px;
+}
+#bowen{
+	padding-top: 5px;
+	text-decoration: none;
+	color: #666;
+	font-size: bold;
+	font-family: Impact, Charcoal, sans-serif;
+}
+div.clareright {
+    background-color: #cccccc;
+    border-color: #888888;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    height: 30px;
+    left: 620px;
+    position: relative;
+    text-align: center;
+    top: -900px;
+    width: 850px;
+}
+#title {
+    font-size: 25px;
+	border:2px;
+    color: #cccccc;
+    text-align: center;
+}
+#article {
+    background-color: #ffe4b5;
+    border: 4px none;
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px;
+    height: 500px;
+    overflow: auto;
+}
+h2{ text-indent: 25px;
+	margin: 30px;
+}
+div.mainbody {
+    border: 5px none;
+    left: 650px;
+    overflow: auto;
+    position: relative;
+    top: -860px;
+    width: 800px;
+}
+	#h1{
+		text-align: center;
+		font-family: Comic Sans MS",cursive,sans-serif;
+	}
