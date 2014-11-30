@@ -1,19 +1,60 @@
+body{background: #eee;}
 div h1{
-
-	margin: 60px auto;
-	font-size: 80;
+    position: relative;
+	margin: 100px auto;
+	font-size: 70;
 	text-align: center;color: #186;
 	height: 100px; 
 	text-shadow:5px 5px 5px #124;
 }
 #photos{
+	padding: 0px auto;
 	position: absolute;top: 400px;left: 300px;
 }
-#img1,#img2,#img3,#img4,#img5,#img6{
+#img1,#img2,#img3,#img4,#img5,#img6,#img7{
 	width: 250px;height: 250px;
+	padding: 10px 10px 10px;background-color: #fff;
+	border: 2px solid #ddd;
 	border-radius: 25px;
-	box-shadow: 13px 13px 13px;
+	box-shadow: 13px 13px 13px #555;
+	-moz-transition:1.5s;
 }
-#img2{
 
+#img1{
+	position: relative;top: 50px;left: 80px;
+	-moz-transform:rotate(-15deg);
+}
+#img1:hover{-moz-transform:rotate(0deg);-moz-transform:scale(1.3);z-index: 6;}
+#img2{
+position: relative;
+-moz-transform:rotate(60deg);
+}
+#img2:hover{-moz-transform:scale(1.3)rotate(90deg);z-index: 6;}
+#img3{
+	position: relative;top: 20px;left: -30px;
+	-moz-transform:rotate(110deg);
+}
+#img3:hover{-moz-transform:rotate(90deg)scale(1.3);z-index: 6;}
+#img4{
+	position: relative;left: -50px;top: 40px;
+	-moz-transform:rotate(-10deg);
+}
+#img4:hover{-moz-transform:rotate(0deg)scale(1.3);z-index: 6;}
+#img5{
+	position: relative;top: 220px;left: -660px;
+	-moz-transform:rotate(75deg);
+}
+#img5:hover{-moz-transform:rotate(90deg)scale(1.3);z-index: 6;}
+#img6{
+	position: relative;left: 200px;
+	-moz-transform:rotate(55deg);
+}
+#img6:hover{-moz-transform:rotate(90deg)scale(1.3);z-index: 6;}
+#img7{
+	position: relative;left: 400px;
+	-moz-transform:rotate(30deg);
+    
+}
+#img7:hover{
+	-moz-transform:rotate(0deg)scale(1.3);z-index: 6;
 }
